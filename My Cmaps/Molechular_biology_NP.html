@@ -1,0 +1,332 @@
+<HTML>
+<HEAD>
+  <TITLE>Molechular_biology_NP.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Nathan Pitaniello, Concept Map, cmap, CmapTools, IHMC, Molechular biology,  Thymine (T),  Cytosine (C),  Nucliotides,  genetic engenereing,  Adenine (A),  Molecular Biology,  Desing Analisis,  ????,  DNA structure,  restriction enzymes,  5" overhang,  Eco R 1,  Nitrogenous Bases,  Hind 3,  Boiotechnology,  DNA,  Translation,  (PCR),  Guanine (G),  Replication">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: Molechular biology, multiple diffrent technologys for example Bacterial Transformantion, restriction enzymes have Cut Paterns, Boiotechnology uses restriction enzymes, Replication of DNA, DNA structure uses Nucliotides, Nitrogenous Bases are Guanine (G), DNA to RNA, restriction enzymes for example Pst 1, Pst 1 have 5" overhang, restriction enzymes for example Eco R 1, Nitrogenous Bases are Adenine (A), Eco R 1 have 5" overhang, Molecular Biology deals with Transcription, DNA structure uses genetic engenereing, genetic engenereing ties to (PCR), multiple diffrent technologys for example (PCR), DNA structure is manipulated by multiple diffrent technologys, Hind 3 have 3" overhang, restriction enzymes for example Hind 3, multiple diffrent technologys for example Ligation">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: Molechular biology, multiple diffrent technologys for example Bacterial Transformantion, restriction enzymes have Cut Paterns, Boiotechnology uses restriction enzymes, Replication of DNA, DNA structure uses Nucliotides, Nitrogenous Bases are Guanine (G), DNA to RNA, restriction enzymes for example Pst 1, Pst 1 have 5" overhang, restriction enzymes for example Eco R 1, Nitrogenous Bases are Adenine (A), Eco R 1 have 5" overhang, Molecular Biology deals with Transcription, DNA structure uses genetic engenereing, genetic engenereing ties to (PCR), multiple diffrent technologys for example (PCR), DNA structure is manipulated by multiple diffrent technologys, Hind 3 have 3" overhang, restriction enzymes for example Hind 3, multiple diffrent technologys for example Ligation
+
+</noscript>
+
+<map name="Molechular_biology_NP.html">
+  <area shape="rect"
+        href="1QTCQJFFVI27WZN06I1YNItextIhtml"
+        onClick="popUpEvt(event,'1QTCQJFFVI27WZN06I1YNItextIhtml'); return false;"
+        coords="585,535,603,553">
+  <area shape="rect"
+        href="1QTCQM9QTI28V6TYCI250ItextIhtml"
+        onClick="popUpEvt(event,'1QTCQM9QTI28V6TYCI250ItextIhtml'); return false;"
+        coords="831,486,849,504">
+  <area shape="rect"
+        href="1QTCQ44B5I1ZHWLMMIQTItextIhtml"
+        onClick="popUpEvt(event,'1QTCQ44B5I1ZHWLMMIQTItextIhtml'); return false;"
+        coords="292,401,310,419">
+  <area shape="rect"
+        href="1QTCQBD76IRFF2ZXI1D0ItextIhtml"
+        onClick="popUpEvt(event,'1QTCQBD76IRFF2ZXI1D0ItextIhtml'); return false;"
+        coords="193,688,211,706">
+  <area shape="rect"
+        href="1QTCR47D2I2CZ53ZJI4GWItextIhtml"
+        onClick="popUpEvt(event,'1QTCR47D2I2CZ53ZJI4GWItextIhtml'); return false;"
+        coords="115,631,133,649">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#Molechular_biology_NP.html"
+             SRC="Molechular_biology_NP.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1QTCQJFFVI27WZN06I1YNItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://users.rcn.com/jkimball.ma.ultranet/BiologyPages/N/Nucleotides.html "TITLE="">
+      Nucleotides
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QTCQM9QTI28V6TYCI250ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://agbiosafety.unl.edu/basic_genetics.shtml "TITLE="">
+      UNL's AgBiosafety for Educators
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QTCQ44B5I1ZHWLMMIQTItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.genome.gov/27552603/transcription-and-translation/ "TITLE="">
+      Transcription and Translation - National Human Genome Research Institute (NHGRI)
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QTCQBD76IRFF2ZXI1D0ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://en.wikipedia.org/wiki/Ligation_(molecular_biology) "TITLE="">
+      Ligation (molecular biology) - Wikipedia
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QTCR47D2I2CZ53ZJI4GWItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.news-medical.net/life-sciences/What-is-RNA.aspx "TITLE="">
+      What is RNA-
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
